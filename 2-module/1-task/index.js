@@ -5,7 +5,7 @@
  */
 function sumSalary(salaries) {
   // ваш код...
-  sum = 0;
+  let sum = 0;
   
   for (const key in salaries) {
     if (typeof salaries[key] == "number") {
